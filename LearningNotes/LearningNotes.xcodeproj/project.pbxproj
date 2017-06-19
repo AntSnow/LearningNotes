@@ -12,6 +12,7 @@
 		329DF22C1EF79CE500703720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329DF22A1EF79CE500703720 /* Main.storyboard */; };
 		329DF22E1EF79CE500703720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329DF22D1EF79CE500703720 /* Assets.xcassets */; };
 		329DF2311EF79CE500703720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329DF22F1EF79CE500703720 /* LaunchScreen.storyboard */; };
+		329DF23C1EF7B24400703720 /* ATMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF23B1EF7B24400703720 /* ATMainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		329DF22D1EF79CE500703720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		329DF2301EF79CE500703720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329DF2321EF79CE500703720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329DF23B1EF7B24400703720 /* ATMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		329DF2251EF79CE500703720 /* LearningNotes */ = {
 			isa = PBXGroup;
 			children = (
+				329DF2381EF7B1E800703720 /* 转场动画 */,
 				329DF2261EF79CE500703720 /* AppDelegate.swift */,
 				329DF2281EF79CE500703720 /* ViewController.swift */,
 				329DF22A1EF79CE500703720 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				329DF2321EF79CE500703720 /* Info.plist */,
 			);
 			path = LearningNotes;
+			sourceTree = "<group>";
+		};
+		329DF2381EF7B1E800703720 /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				329DF23B1EF7B24400703720 /* ATMainViewController.swift */,
+			);
+			path = "转场动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329DF23C1EF7B24400703720 /* ATMainViewController.swift in Sources */,
 				329DF2291EF79CE500703720 /* ViewController.swift in Sources */,
 				329DF2271EF79CE500703720 /* AppDelegate.swift in Sources */,
 			);
