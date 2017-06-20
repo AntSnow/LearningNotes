@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3290B2841EF8C36700C5EB06 /* RXFirstMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290B2821EF8C36700C5EB06 /* RXFirstMainViewController.swift */; };
+		3290B2851EF8C36700C5EB06 /* RXFirstMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3290B2831EF8C36700C5EB06 /* RXFirstMainViewController.xib */; };
 		329DF2271EF79CE500703720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF2261EF79CE500703720 /* AppDelegate.swift */; };
 		329DF2291EF79CE500703720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF2281EF79CE500703720 /* ViewController.swift */; };
 		329DF22C1EF79CE500703720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329DF22A1EF79CE500703720 /* Main.storyboard */; };
 		329DF22E1EF79CE500703720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329DF22D1EF79CE500703720 /* Assets.xcassets */; };
 		329DF2311EF79CE500703720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329DF22F1EF79CE500703720 /* LaunchScreen.storyboard */; };
 		329DF23C1EF7B24400703720 /* ATMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329DF23B1EF7B24400703720 /* ATMainViewController.swift */; };
+		A824F2E226AA73638A49C18E /* Pods_LearningNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AD5DC042771EF7D225A404 /* Pods_LearningNotes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18AD5DC042771EF7D225A404 /* Pods_LearningNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3290B2821EF8C36700C5EB06 /* RXFirstMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXFirstMainViewController.swift; sourceTree = "<group>"; };
+		3290B2831EF8C36700C5EB06 /* RXFirstMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RXFirstMainViewController.xib; sourceTree = "<group>"; };
 		329DF2231EF79CE500703720 /* LearningNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329DF2261EF79CE500703720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		329DF2281EF79CE500703720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		329DF2301EF79CE500703720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329DF2321EF79CE500703720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329DF23B1EF7B24400703720 /* ATMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMainViewController.swift; sourceTree = "<group>"; };
+		A46DA71A4892D1EC2347B106 /* Pods-LearningNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningNotes.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningNotes/Pods-LearningNotes.release.xcconfig"; sourceTree = "<group>"; };
+		B84D06E35C92171C1B358A94 /* Pods-LearningNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningNotes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningNotes/Pods-LearningNotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A824F2E226AA73638A49C18E /* Pods_LearningNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FD0EC553395F6F1A7AAE7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18AD5DC042771EF7D225A404 /* Pods_LearningNotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3290B27E1EF8C2C900C5EB06 /* RXSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3290B27F1EF8C2DA00C5EB06 /* RXSwift01 */,
+			);
+			path = RXSwift;
+			sourceTree = "<group>";
+		};
+		3290B27F1EF8C2DA00C5EB06 /* RXSwift01 */ = {
+			isa = PBXGroup;
+			children = (
+				3290B2821EF8C36700C5EB06 /* RXFirstMainViewController.swift */,
+				3290B2831EF8C36700C5EB06 /* RXFirstMainViewController.xib */,
+			);
+			path = RXSwift01;
+			sourceTree = "<group>";
+		};
 		329DF21A1EF79CE500703720 = {
 			isa = PBXGroup;
 			children = (
 				329DF2251EF79CE500703720 /* LearningNotes */,
 				329DF2241EF79CE500703720 /* Products */,
+				AF6FE7BE64814F2D36426421 /* Pods */,
+				2FD0EC553395F6F1A7AAE7B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +92,7 @@
 		329DF2251EF79CE500703720 /* LearningNotes */ = {
 			isa = PBXGroup;
 			children = (
+				3290B27E1EF8C2C900C5EB06 /* RXSwift */,
 				329DF2381EF7B1E800703720 /* 转场动画 */,
 				329DF2261EF79CE500703720 /* AppDelegate.swift */,
 				329DF2281EF79CE500703720 /* ViewController.swift */,
@@ -75,6 +112,15 @@
 			path = "转场动画";
 			sourceTree = "<group>";
 		};
+		AF6FE7BE64814F2D36426421 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B84D06E35C92171C1B358A94 /* Pods-LearningNotes.debug.xcconfig */,
+				A46DA71A4892D1EC2347B106 /* Pods-LearningNotes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329DF2351EF79CE500703720 /* Build configuration list for PBXNativeTarget "LearningNotes" */;
 			buildPhases = (
+				C235CF32359E8FAA9762A22C /* [CP] Check Pods Manifest.lock */,
 				329DF21F1EF79CE500703720 /* Sources */,
 				329DF2201EF79CE500703720 /* Frameworks */,
 				329DF2211EF79CE500703720 /* Resources */,
+				E55A60B8FE170A8A35A51577 /* [CP] Embed Pods Frameworks */,
+				2AE00DED195D6CA58079426C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3290B2851EF8C36700C5EB06 /* RXFirstMainViewController.xib in Resources */,
 				329DF2311EF79CE500703720 /* LaunchScreen.storyboard in Resources */,
 				329DF22E1EF79CE500703720 /* Assets.xcassets in Resources */,
 				329DF22C1EF79CE500703720 /* Main.storyboard in Resources */,
@@ -141,11 +191,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AE00DED195D6CA58079426C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningNotes/Pods-LearningNotes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C235CF32359E8FAA9762A22C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E55A60B8FE170A8A35A51577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningNotes/Pods-LearningNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		329DF21F1EF79CE500703720 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3290B2841EF8C36700C5EB06 /* RXFirstMainViewController.swift in Sources */,
 				329DF23C1EF7B24400703720 /* ATMainViewController.swift in Sources */,
 				329DF2291EF79CE500703720 /* ViewController.swift in Sources */,
 				329DF2271EF79CE500703720 /* AppDelegate.swift in Sources */,
@@ -279,10 +378,12 @@
 		};
 		329DF2361EF79CE500703720 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84D06E35C92171C1B358A94 /* Pods-LearningNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26V98KNDES;
 				INFOPLIST_FILE = LearningNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AntSnow.LearningNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,10 +394,12 @@
 		};
 		329DF2371EF79CE500703720 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46DA71A4892D1EC2347B106 /* Pods-LearningNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26V98KNDES;
 				INFOPLIST_FILE = LearningNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AntSnow.LearningNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,6 +427,7 @@
 				329DF2371EF79CE500703720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,19 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LearningNotes.xcscheme</key>
+		<key>Pods-LearningNotes.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>329DF2221EF79CE500703720</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

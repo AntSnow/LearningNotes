@@ -8,15 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let vc = ATMainViewController.init()
-        self.navigationController?.pushViewController(vc, animated: true)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let header = tableView.headerView(forSection: indexPath.section)
+        debugPrint(header?.textLabel?.text)
     }
 }
 
