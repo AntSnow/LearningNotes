@@ -1,12 +1,12 @@
 PODS:
-  - RxSwift (3.5.0)
+  - SnapKit (3.2.0)
 
 DEPENDENCIES:
-  - RxSwift (~> 3.4)
+  - SnapKit (~> 3.2.0)
 
 SPEC CHECKSUMS:
-  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: deaf5e4a9b3d48ddbdd0b51c35f5892c544791cd
+PODFILE CHECKSUM: 62db17a02516cd33ec9e856f0692dbcf18e79d24
 
 COCOAPODS: 1.1.1
